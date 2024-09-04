@@ -1,0 +1,4 @@
+increase	2008	342439439
+change	2005	223124    
+alteration	2008	2         
+occurrence	2010	10        
