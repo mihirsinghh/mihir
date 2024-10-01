@@ -40,9 +40,9 @@ p {
 
 
 a {
-    color: rgb(15, 233, 15);
+    color: hotpink;
     animation: bounce 1s infinite alternate;
-    text-decoration: underline wavy rgb(61, 255, 213);
+    text-decoration: underline dotted rgb(61, 255, 213);
 }
 
 img {
@@ -57,11 +57,14 @@ img {
 Classes
 */
 
-.showcase {
-    background-color: red;
-    height: 100px;
+.leftmost-column {
+    position: absolute;
+    
 }
 
-.container {
-    
+.about-me {
+    color: yellow;
+    margin: 20px 50px 10px;
+    max-width: 700px;
+    text-align: justify;
 }
