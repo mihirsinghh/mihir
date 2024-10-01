@@ -7,23 +7,7 @@ body {
     transform: rotate(360deg);
     animation: spin 3s infinite linear, zoom 2s infinite alternate;
 }
-/*
-@keyframes flashBackground {
-    0% { background-color: blue; }
-    50% { background-color: lime; }
-    100% { background-color: pink; }
-}
 
-@keyframes spin {
-    from { transform: rotate(0deg); }
-    to { transform: rotate(360deg); }
-}
-
-@keyframes zoom {
-    0% { transform: scale(1); }
-    100% { transform: scale(1.5); }
-}
-*/
 
 h1 {
     color: rgb(192, 7, 146);
@@ -53,33 +37,31 @@ p {
     font-size: smaller;
     letter-spacing: 5px;
 }
-/*
-@keyframes moveText {
-    0% { margin-left: 0; }
-    50% { margin-left: 50px; }
-    100% { margin-left: 0; }
-}
-*/
+
 
 a {
     color: rgb(15, 233, 15);
     animation: bounce 1s infinite alternate;
     text-decoration: underline wavy rgb(61, 255, 213);
 }
-/*
-@keyframes bounce {
-    0% { transform: translateY(0); }
-    100% { transform: translateY(-20px); }
-}
-*/
+
 img {
     border: 5px dotted red;
     animation: rotateImage 5s infinite;
     filter: hue-rotate(360deg);
 }
+
+
+
 /*
-@keyframes rotateImage {
-    0% { transform: rotate(0deg); }
-    100% { transform: rotate(360deg); }
-}
+Classes
 */
+
+.showcase {
+    background-color: red;
+    height: 100px;
+}
+
+.container {
+    
+}
