@@ -68,3 +68,7 @@ Classes
     max-width: 700px;
     text-align: justify;
 }
+
+.middle-column {
+    display: box;
+}
